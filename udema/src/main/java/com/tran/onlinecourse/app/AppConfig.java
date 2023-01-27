@@ -10,7 +10,7 @@ import org.springframework.web.multipart.commons.CommonsMultipartResolver;
 @Configuration
 @ComponentScan("com.tran.onlinecourse.app")
 @PropertySource("classpath:application.properties")
-public class AppConfig {
+public class AppConfig {  
 	
 	
 	@Bean(name = "multipartResolver")
